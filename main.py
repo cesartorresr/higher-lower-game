@@ -1,7 +1,7 @@
 from art import logo, vs
 from game_data import data
 import random
-from replit import clear
+from replit import clear()
 def format_data(account):
   """Format the account data into printable format"""
   account_name = account["name"]
